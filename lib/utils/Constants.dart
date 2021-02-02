@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:foodmonkey/models/Category.dart';
+import 'package:foodmonkey/models/Product.dart';
 import 'package:foodmonkey/models/Tag.dart';
 
 const Color yellow = Color(0xffFDC054);
@@ -26,4 +27,19 @@ List<Tag> tags = [
   Tag(name:"Popular",image:"popular.jpg"),
   Tag(name:"Drink",image:"Drink.png"),
   Tag(name:"Food",image:"Food.png"),
+  Tag(name:"Popular",image:"popular.jpg"),
+  Tag(name:"Drink",image:"Drink.png"),
+];
+
+List<Product> products = [
+    Product(id:"1",name:"Burger King",image:"1.png"),
+    Product(id:"2",name:"Burger Queen",image:"2.png"),
+    Product(id:"3",name:"Burger Prince",image:"3.png"),
+    Product(id:"4",name:"Burger Princess",image:"4.png"),
+    Product(id:"5",name:"Burger Baby",image:"5.png"),
+    Product(id:"6",name:"French Fried",image:"6.png"),
+    Product(id:"7",name:"Hot Pot",image:"7.png"),
+    Product(id:"8",name:"T Shirt",image:"8.png"),
+    Product(id:"19",name:"Good One",image:"9.png"),
+    Product(id:"10",name:"So So",image:"10.png"),
 ];
